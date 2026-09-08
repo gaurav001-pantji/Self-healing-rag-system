@@ -1,0 +1,18 @@
+[
+  {
+    "id": "ru7l95w",
+    "query": "heloo",
+    "strategy": "hybrid",
+    "confidence": 0,
+    "timestamp": "2026-07-27T06:01:11.723Z",
+    "reformulated_query": "search for documents containing the words \"hello\" or \"greeting\" or \"salutation\" or \"welcome\" or \"hi\" or \"hey\" or \"hi there\" or \"hello there\" in the title or abstract or content of the document."
+  },
+  {
+    "id": "3jhxw1m",
+    "query": "what is a tissue",
+    "strategy": "hybrid",
+    "confidence": 0,
+    "timestamp": "2026-07-28T08:24:47.607Z",
+    "reformulated_query": "Find documents related to the definition, characteristics, and properties of a biological tissue, specifically a group of similar cells that perform specific functions in an organism, including but not limited to, connective tissue, epithelial tissue, muscle tissue, and nervous tissue."
+  }
+]

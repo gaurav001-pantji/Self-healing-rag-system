@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quantum Processor Specification Sheet</title>
+</head>
+<body>
+    <h1>HELIX QUANTUM CHIP - CONFIGURATION BLUEPRINT</h1>
+    
+    <h2>Section 1: Qubit Architecture & Coherence</h2>
+    <p>
+        The Helix-V superconducting quantum processing unit (QPU) features a planar array of 128 physical transmon qubits arranged in an 8x16 heavy-hexagonal lattice.
+        The average qubit relaxation lifetime (T1) is measured at 145 microseconds, while the dephasing lifetime (T2) is calibrated at 210 microseconds under dilution refrigerator operating conditions of 12 Millikelvins.
+    </p>
+
+    <h2>Section 2: Quantum Gate Fidelity Rates</h2>
+    <p>
+        The Helix processor utilizes microwave pulses for single-qubit rotations and flux-tunable couplers for two-qubit entangling gates.
+        - Single-qubit Clifford gate fidelity: 99.97% (calibrated via randomized benchmarking)
+        - Two-qubit Controlled-Z (CZ) entangling gate fidelity: 99.82%
+        - Average read-out assignment fidelity: 99.45%
+        - Maximum gate execution duration: 40 nanoseconds
+    </p>
+
+    <h2>Section 3: Quantum Error Correction (QEC) Threshold</h2>
+    <p>
+        To suppress physical noise below the fault-tolerance threshold, Helix-V implements the Surface Code protocol with a distance parameter of d=5.
+        The physical error threshold for logical state storage is bounded at 0.75%. Below this physical error threshold, scaling the distance d exponentially reduces logical error rates.
+    </p>
+</body>
+</html>

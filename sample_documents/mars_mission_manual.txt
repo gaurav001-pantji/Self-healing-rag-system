@@ -1,0 +1,23 @@
+SPACE EXPLORATION ROADMAP - MARS DIRECT MISSION
+==============================================
+
+Section 1: Propulsion Systems and Fuel Mixtures
+----------------------------------------------
+The primary booster stage of the Ares-X rocket utilizes a liquid methane (LCH4) and liquid oxygen (LOX) propellant mixture. The target fuel-to-oxidizer ratio is calibrated at 1:3.5 to achieve maximum specific impulse (Isp) of 380 seconds in vacuum.
+For deep-space maneuvering, the spacecraft relies on high-efficiency hydrazine thrusters capable of delivering a steady thrust of 400 Newtons.
+
+Section 2: Planetary Habitat Specifications
+-------------------------------------------
+The inflatable Martian surface habitat, code-named "Aegis-1", is designed to accommodate a crew of 6 astronauts for up to 500 Martian days (sols).
+Critical Life Support Parameters:
+- Internal atmospheric pressure: 70.3 kPa (approximately 0.7 atm)
+- Oxygen concentration: 21%
+- Nitrogen buffer: 78%
+- Carbon Dioxide scrubber cycle rate: 12 minutes per cycle
+- Emergency oxygen reserve: 72 hours auxiliary cylinder storage
+
+Section 3: Communication Latency and Data Links
+-----------------------------------------------
+Due to orbital mechanics, radio signals traveling between Earth and Mars experience a variable round-trip communication delay ranging from 6.5 minutes to 44 minutes.
+Data transmission is routed through the Ares-Relay Orbiter using Ka-band high-gain directional dish antennas, achieving a maximum downlink bandwidth of 4.5 Megabits per second (Mbps).
+In the event of solar opposition, a complete communication blackout occurs for approximately 11 days.

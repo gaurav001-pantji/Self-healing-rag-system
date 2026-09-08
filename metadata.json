@@ -1,0 +1,6 @@
+{
+  "name": "Self-Healing RAG System",
+  "description": "An automated RAG system with auto query reformulation, confidence-scored cross-encoder reranking, and answer grounding checks.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
